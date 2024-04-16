@@ -92,6 +92,7 @@ class LatinSquareTest {
         assertTrue(LatinSquare.targetCheckSum1(array2d7.length) == 10);
         assertTrue(LatinSquare.targetCheckSum1(array2d8.length) == 15);
     }
+
     @org.junit.jupiter.api.Test
     void targetCheckSum2() {
         assertTrue(LatinSquare.targetCheckSum2(array2d.length) == 6);
@@ -155,5 +156,7 @@ class LatinSquareTest {
         assertTrue(LatinSquare.isLatinSquare(array2d7) == false);
         assertTrue(LatinSquare.isLatinSquare(array2d8) == false);
     }
+
+     */
 
 }
